@@ -1,0 +1,139 @@
+@media screen and (max-width: 1150px){
+    .aside__list{
+        display: none;
+    }
+}
+@media screen and (max-width: 850px){
+    .container{
+        width: 95%;
+    }
+    .header__list{
+        display: none;
+    }
+    .news__general{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .news__box{
+        width: 90%;
+    }
+    .newsBox__title{
+        font-size: 16px;
+    }
+    .major__list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .major__item{
+        width: 45%;
+        flex-direction: column;
+    }
+    .majorItem__image{
+        width: 100%;
+    }
+    .majorBox__text{
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .major__title{
+        text-align: center;
+    }
+    .nav__general .nav__list{
+        display: none;
+    }
+    .notification{
+        display: none;
+    }
+    .footer__logo{
+        font-size: 1rem;
+    }
+    .footerNav__item{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:650px) {
+    .nav__logo{
+        font-size: 20px;
+    }
+    .hero__general{
+        display: grid;
+        grid-template-columns: auto auto;
+        flex-wrap: nowrap;
+    }
+    .programm__general{
+        flex-direction: column;
+    }
+    .programm__image{
+        width: 50%;
+    }
+    .programm__item{
+        font-size: 16px !important;
+        text-align: center;
+    }
+    .major__list{
+        flex-direction: column;
+    }
+    .major__item{
+        width: 70%;
+        text-align: center;
+    }
+    .news__general{
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+    .news__box{
+        width: 70%;
+        text-align: center;
+    }
+    .footer__logo{
+        width: 70%;
+        font-size: 1.5rem;
+    }
+    .footer__nav{
+        flex-direction: column;
+    }
+    .footerNav__list{
+        width: 100%;
+    }
+    .footer__general{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__list{
+        width: 100%;
+        border-bottom: 2px solid #133C82;        ;
+    }
+    .footer__general .footer__list:first-child{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    .container{
+        width: 100%;
+    }
+    .nav__list{
+        display: none;
+    }
+    .major__item{
+        width: 90%;
+    }
+    .majorBox__text{
+        font-size: 16px;
+    }
+    .news__box{
+        width: 90%;
+    }
+    .newsBox__title{
+        font-size: 16px;
+    }
+    .hero__general{
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+    .hero__box{
+        width: 100%;
+    }
+}
